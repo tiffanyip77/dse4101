@@ -1,0 +1,2 @@
+States removed from DiD analysis:
+AK, OK, SD, NV, LA, NM, IN

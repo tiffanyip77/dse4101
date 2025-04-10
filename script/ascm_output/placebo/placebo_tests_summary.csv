@@ -1,0 +1,4 @@
+"Test","Effect_Size","P_Value","Interpretation"
+"Placebo-in-Time",-0.0136874536275709,NA,"Passed (small effect)"
+"Placebo-in-Space",0.0941967270942458,NA,"Passed (small effect)"
+"Placebo Outcome (Marriage Rate)",0.00164737378696243,NA,"Passed (small effect)"

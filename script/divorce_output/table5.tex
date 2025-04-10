@@ -1,0 +1,51 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Robustness to Alternative Confounders}
+\begin{tabular}{l*{5}{c}}
+\toprule
+                    &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}\\
+                    &\multicolumn{1}{c}{Baseline}&\multicolumn{1}{c}{Neighbor control}&\multicolumn{1}{c}{Ever-divorced trend}&\multicolumn{1}{c}{Year×Ever-div}&\multicolumn{1}{c}{Reform states only}\\
+\midrule
+1-2 years           &       0.281\sym{***}&       0.281\sym{***}&       0.297\sym{***}&       0.089         &       0.506\sym{***}\\
+                    &     (0.058)         &     (0.058)         &     (0.058)         &     (0.057)         &     (0.073)         \\
+\addlinespace
+3-4 years           &       0.255\sym{***}&       0.254\sym{***}&       0.277\sym{***}&       0.085         &       0.688\sym{***}\\
+                    &     (0.059)         &     (0.059)         &     (0.059)         &     (0.059)         &     (0.092)         \\
+\addlinespace
+5-6 years           &       0.180\sym{***}&       0.179\sym{***}&       0.209\sym{***}&       0.018         &       0.791\sym{***}\\
+                    &     (0.059)         &     (0.061)         &     (0.060)         &     (0.060)         &     (0.113)         \\
+\addlinespace
+7-8 years           &       0.162\sym{***}&       0.162\sym{***}&       0.198\sym{***}&       0.047         &       0.904\sym{***}\\
+                    &     (0.058)         &     (0.061)         &     (0.060)         &     (0.059)         &     (0.133)         \\
+\addlinespace
+9-10 years          &      -0.061         &      -0.062         &      -0.019         &      -0.081         &       0.782\sym{***}\\
+                    &     (0.058)         &     (0.061)         &     (0.061)         &     (0.059)         &     (0.152)         \\
+\addlinespace
+11-12 years         &      -0.286\sym{***}&      -0.286\sym{***}&      -0.236\sym{***}&      -0.231\sym{***}&       0.586\sym{***}\\
+                    &     (0.058)         &     (0.060)         &     (0.061)         &     (0.059)         &     (0.171)         \\
+\addlinespace
+13-14 years         &      -0.445\sym{***}&      -0.445\sym{***}&      -0.387\sym{***}&      -0.262\sym{***}&       0.455\sym{**} \\
+                    &     (0.058)         &     (0.061)         &     (0.063)         &     (0.060)         &     (0.189)         \\
+\addlinespace
+15+ years           &      -0.398\sym{***}&      -0.399\sym{***}&      -0.326\sym{***}&      -0.112\sym{*}  &       0.497\sym{**} \\
+                    &     (0.062)         &     (0.066)         &     (0.069)         &     (0.068)         &     (0.207)         \\
+\addlinespace
+15-16 years         &      -0.627\sym{***}&      -0.627\sym{***}&      -0.536\sym{***}&      -0.180\sym{**} &       0.298         \\
+                    &     (0.078)         &     (0.082)         &     (0.087)         &     (0.088)         &     (0.229)         \\
+\addlinespace
+17-18 years         &      -1.048\sym{***}&      -1.049\sym{***}&      -0.935\sym{***}&      -0.425\sym{***}&      -0.121         \\
+                    &     (0.131)         &     (0.134)         &     (0.139)         &     (0.150)         &     (0.263)         \\
+\addlinespace
+Neighbor adoption rate&                     &       0.002         &                     &                     &                     \\
+                    &                     &     (0.059)         &                     &                     &                     \\
+\addlinespace
+Ever-divorced trend &                     &                     &      -0.109\sym{**} &                     &                     \\
+                    &                     &                     &     (0.046)         &                     &                     \\
+\midrule
+Observations        &        1440         &        1440         &        1440         &        1440         &         821         \\
+\bottomrule
+\multicolumn{6}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{6}{l}{\footnotesize All regressions control for state and year fixed effects. Sample: 1956-1998. Weighted by state population.}\\
+\multicolumn{6}{l}{\footnotesize \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+\end{table}

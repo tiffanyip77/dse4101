@@ -1,0 +1,4 @@
+"Method","Mean_Pre_Effect","Abs_Mean_Pre_Effect","Pre_RMSE","Pre_Sig_Rate"
+"CS: Not-yet-treated",-0.00670633843264649,0.047682920176051,0.0652550655253492,0
+"Sun & Abraham",0.0753919430017111,0.0753919430017111,0.0758225005513141,0
+"de Chaisemartin & d'Haultfoeuille",0.095924,0.095924,0.101180473807944,0.2

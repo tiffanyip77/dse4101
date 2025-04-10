@@ -1,0 +1,30 @@
+
+Call:
+multisynth(form = div_rate ~ treated, unit = state_name, time = year, 
+    data = divorce_asc, n.leads = 15, n.lags = 5)
+
+Average ATT Estimate (Std. Error): -0.094  (0.161)
+
+Global L2 Imbalance: 0.021
+Scaled Global L2 Imbalance: 0.033
+Percent improvement from uniform global weights: 96.7
+
+Individual L2 Imbalance: 0.230
+Scaled Individual L2 Imbalance: 0.158
+Percent improvement from uniform individual weights: 84.2	
+
+ Time Since Treatment   Level     Estimate Std.Error lower_bound upper_bound
+                    0 Average -0.039000916 0.1953506  -0.3843051  0.37671064
+                    1 Average -0.005214596 0.2096519  -0.3695630  0.43833451
+                    2 Average  0.052251292 0.1912846  -0.3047985  0.45649883
+                    3 Average  0.049688990 0.2186039  -0.3692623  0.48388700
+                    4 Average  0.045794856 0.1845964  -0.3155468  0.41721005
+                    5 Average  0.007088172 0.1694957  -0.3199500  0.34286796
+                    6 Average -0.029208817 0.1878632  -0.3913514  0.34796910
+                    7 Average -0.083440899 0.1661946  -0.4095701  0.23861442
+                    8 Average -0.200735672 0.1656146  -0.5419617  0.11295114
+                    9 Average -0.307527955 0.1839844  -0.6864404  0.01406971
+                   10 Average -0.278912944 0.1831340  -0.6868423  0.04579281
+                   11 Average -0.339548961 0.1723200  -0.7071937 -0.04318219
+
+Chosen nu value (after removals): 0.2763007 

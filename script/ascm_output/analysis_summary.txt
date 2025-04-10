@@ -1,0 +1,11 @@
+States removed from analysis:
+AK, OK, SD, NV, LA, NM, IN 
+
+Generated individual plots for the following states:
+Early treated states: KS, CA, IA 
+Mid-period treated states: NE, AZ, CT 
+Late treated states: MT, RI, WY 
+
+Nu parameter sensitivity analysis:
+Default (auto-selected) nu: 0.2763007 
+Also tested nu values of: 0, 0.5, 0.99, and 1

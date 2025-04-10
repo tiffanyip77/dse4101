@@ -1,0 +1,30 @@
+===============================================
+PLACEBO TEST RESULTS FOR CALLAWAY & SANT'ANNA
+===============================================
+
+1. PLACEBO-IN-SPACE TEST
+   Description: Tests whether effects appear for never-treated units
+   Average effect: 0.0011 
+   Maximum absolute effect: 0.3072 
+   Significance rate: 0 %
+   Result: PASSED - No significant effects detected in placebo units 
+
+2. RANDOMIZATION INFERENCE TEST
+   Description: Tests whether observed effect exceeds effects from random treatment assignment
+   Actual effect: -0.111 
+   p-value: 0.28 
+   Result: FAILED - Effect is not distinguishable from random chance 
+
+3. PLACEBO OUTCOME TEST (MARRIAGE RATES)
+   Description: Tests whether effects appear for unrelated outcome (marriage rates)
+   Average effect (0-5 years): 0.0013 
+   Maximum absolute effect (0-5 years): 0.0026 
+   Significance rate (0-5 years): 0 %
+   Result: PASSED - No significant effects detected on marriage rates 
+
+===============================================
+OVERALL ASSESSMENT
+===============================================
+Tests passed: 2 out of 3 
+CONCLUSION: Results are moderately robust - majority of placebo tests passed
+The C&S estimator appears generally reliable, though some caution is warranted.

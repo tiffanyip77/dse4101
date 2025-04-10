@@ -1,0 +1,10 @@
+States excluded from analysis:
+
+Always treated states (treated before 1956):
+AK OK
+
+Late treated states (insufficient post-treatment periods):
+SD
+
+Problematic states:
+IN LA NM NV

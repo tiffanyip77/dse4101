@@ -1,0 +1,44 @@
+
+----------------------------------------------------------------------
+       Estimation of treatment effects: Event-study effects
+----------------------------------------------------------------------
+             Estimate SE      LB CI    UB CI    N   Switchers
+Effect_1     0.06472  0.07187 -0.07614 0.20558  284 25       
+Effect_2     0.14355  0.08696 -0.02689 0.31399  260 25       
+Effect_3     0.17689  0.08711 0.00616  0.34763  238 25       
+Effect_4     0.16494  0.08210 0.00403  0.32585  222 25       
+Effect_5     0.06165  0.10130 -0.13690 0.26019  209 25       
+Effect_6     0.02678  0.10329 -0.17566 0.22922  203 25       
+Effect_7     0.04102  0.11962 -0.19342 0.27547  199 25       
+Effect_8     -0.06497 0.11698 -0.29424 0.16430  197 25       
+Effect_9     -0.14463 0.13018 -0.39977 0.11051  196 25       
+Effect_10    -0.24463 0.12561 -0.49081 0.00155  196 25       
+Effect_11    -0.25242 0.11685 -0.48143 -0.02341 196 25       
+Effect_12    -0.32884 0.11477 -0.55379 -0.10390 196 25       
+Effect_13    -0.32961 0.12270 -0.57009 -0.08912 176 24       
+Effect_14    -0.35698 0.13174 -0.61518 -0.09878 156 23       
+Effect_15    -0.30576 0.14546 -0.59085 -0.02067 135 21       
+
+Test of joint nullity of the effects : p-value = 0.0003
+----------------------------------------------------------------------
+    Average cumulative (total) effect per treatment unit
+----------------------------------------------------------------------
+ Estimate        SE     LB CI     UB CI         N Switchers 
+ -0.08544   0.08493  -0.25189   0.08102       836       368 
+Average number of time periods over which a treatment effect is accumulated: 7.8777
+
+----------------------------------------------------------------------
+     Testing the parallel trends and no anticipation assumptions
+----------------------------------------------------------------------
+             Estimate SE      LB CI    UB CI   N   Switchers
+Placebo_1    0.13597  0.06223 0.01401  0.25794 284 25       
+Placebo_2    0.12247  0.07651 -0.02748 0.27242 260 25       
+Placebo_3    0.09938  0.09086 -0.07871 0.27747 238 25       
+Placebo_4    0.07516  0.10311 -0.12694 0.27725 222 25       
+Placebo_5    0.04664  0.12498 -0.19832 0.29161 209 25       
+
+Test of joint nullity of the placebos : p-value = 0.3283
+
+
+The development of this package was funded by the European Union.
+ERC REALLYCREDIBLE - GA N. 101043899

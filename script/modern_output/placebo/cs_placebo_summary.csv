@@ -1,0 +1,4 @@
+"Test","Effect","Metric","Result"
+"Placebo-in-Space",0.001,"0% significant","Passed"
+"Randomization Inference",-0.111,"p-value = 0.28","Failed"
+"Placebo Outcome (Marriage)",0.001,"0% significant","Passed"

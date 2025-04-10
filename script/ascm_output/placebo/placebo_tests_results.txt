@@ -1,0 +1,27 @@
+===========================================
+PLACEBO TESTS FOR ascm ANALYSIS
+===========================================
+
+1. PLACEBO-IN-TIME TEST
+   Description: This test artificially shifts treatment 5 years earlier
+   Average effect: -0.0137 
+   Max absolute effect: 1.7028 
+   Interpretation: PASSED - No significant pre-treatment effects 
+
+2. PLACEBO-IN-SPACE TEST
+   Description: This test randomly assigns treatment to untreated states
+   Average effect: 0.0942 
+   Max absolute effect: 2.1711 
+   Interpretation: PASSED - No significant effects from placebo treatment 
+
+3. PLACEBO OUTCOME TEST (MARRIAGE RATE)
+   Description: This test applies the same model to marriage rates instead of divorce rates
+   Average effect: 0.0016 
+   Max absolute effect: 0.0193 
+   Interpretation: PASSED - No significant effects on marriage rates 
+
+===========================================
+OVERALL ASSESSMENT
+===========================================
+Passed 3 out of 3 placebo tests
+CONCLUSION: Results appear robust - all placebo tests passed

@@ -1,0 +1,31 @@
+
+-----------------------------------------------------
+OVERALL ASSESSMENT OF DiD ESTIMATORS
+-----------------------------------------------------
+
+1. PARALLEL TRENDS ASSUMPTION:
+   - Method with smallest pre-trend deviations: CS: Not-yet-treated 
+   - Method with lowest pre-treatment significance rate: CS: Not-yet-treated 
+
+2. PRECISION OF ESTIMATES:
+   - Method with smallest standard errors (immediate period): de Chaisemartin & d'Haultfoeuille 
+   - Method with smallest standard errors (long-term): Sun & Abraham 
+
+3. CONSISTENCY WITH WOLFERS' FINDINGS:
+   - Wolfers found immediate effects around 0.2-0.3, declining over time, and turning negative after a decade
+   - Method most consistent with Wolfers' pattern: CS: Not-yet-treated 
+
+4. FINAL RECOMMENDATION:
+   Based on pre-trend validity, precision, and consistency with Wolfers' findings,
+   the preferred method for this application appears to be:
+     
+
+5. QUANTITATIVE COMPARISON SUMMARY:
+   - Pre-treatment effects (should be zero) :
+      Not-yet-treated: -0.007 | Sun & Abraham: 0.075 | de Chaisemartin & d'Haultfoeuille: 0.096 
+   - Immediate effects (0-3 years) :
+      Not-yet-treated: 0.138 | Sun & Abraham: 0.279 | de Chaisemartin & d'Haultfoeuille: 0.096 
+   - Medium-term effects (4-9 years) :
+      Not-yet-treated: -0.054 | Sun & Abraham: 0.069 | de Chaisemartin & d'Haultfoeuille: 0.014 
+   - Long-term effects (10+ years) :
+      Not-yet-treated: -0.31 | Sun & Abraham: -0.382 | de Chaisemartin & d'Haultfoeuille: -0.303 
